@@ -1,0 +1,22 @@
+{
+  "name": "langchain-agent",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@googleapis/docs": "^3.3.0",
+    "@langchain/community": "^0.3.16",
+    "@langchain/core": "^0.3.18",
+    "@langchain/google-genai": "^0.1.4",
+    "@langchain/langgraph": "^0.2.22",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "gitignore": "^0.7.0",
+    "multer": "^1.4.5-lts.1",
+    "officeparser": "^4.2.0"
+  }
+}
