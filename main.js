@@ -1,7 +1,4 @@
-process.env.LANGCHAIN_CALLBACKS_BACKGROUND = "true";
-process.env.LANGCHAIN_TRACING_V2 = "true";
-process.env.LANGCHAIN_ENDPOINT = "https://api.smith.langchain.com";
-process.env.LANGCHAIN_PROJECT = "BoringAI";
+
 
 import { TavilySearchResults } from "@langchain/community/tools/tavily_search";
 import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
