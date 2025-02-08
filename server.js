@@ -8,7 +8,7 @@ import { processFile } from "./main.js"; // AI agent function
 
 configDotenv();
 
-const allowedOrigins = process.env.ORIGIN
+const allowedOrigins = process.env.ORIGIN.split(",");
 
 const app = express();
 app.use(cors({ 
